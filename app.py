@@ -69,4 +69,7 @@ elif dust_loss > 10:
     st.warning("⚠️ **Xəbərdarlıq:** Orta dərəcədə tozlanma var. Təmizlənməsi faydalı olar.")
 else:
     st.success("✅ Sistem normal işləyir, itkilər minimumdadır.")
-    
+    python -m streamlit run app.py
+    import streamlit as st
+st.sidebar.image("logo.jpg", width=150)
+
